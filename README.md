@@ -43,7 +43,7 @@ int main()
 	argv[4] = loopEnd;
 
 	ConvertToFSB(argc, argv);
-}```
+}
 
 If you dont want the Loop Points then simply remove them as follows
 
