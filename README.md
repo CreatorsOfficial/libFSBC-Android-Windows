@@ -23,7 +23,7 @@ The first string in the string[] or char** is the random string input, second is
 
 You can write the code as follows for a console application
 
-[#include "FSBC.h"
+<sup>#include "FSBC.h"
 #include <string>
 
 int main()
@@ -43,11 +43,11 @@ int main()
 	argv[4] = loopEnd;
 
 	ConvertToFSB(argc, argv);
-}]
+}</sup>
 
 If you dont want the Loop Points then simply remove them as follows
 
-#include "FSBC.h"
+<sup>#include "FSBC.h"
 #include <string>
 
 int main()
@@ -63,7 +63,7 @@ int main()
 	argv[2] = output;
 
 	ConvertToFSB(argc, argv);
-}
+}</sup>
 
 You can only use C objective for now.
 In the next releases I will improve it for sure.
