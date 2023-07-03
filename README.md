@@ -25,17 +25,20 @@ You can write the code as follows for a console application
 
 ```css
 	int argc = 4;
+
 	char* random = "random";
 	char* input = "Path to your ogg file";
 	char* output = "Path to save your fsb";
 	char* loopStart = "3333";
 	char* loopEnd = "4444";
+
 	char** argv = malloc(sizeof(char**) * 4);
 	argv[0] = random;
 	argv[1] = input;
 	argv[2] = output;
 	argv[3] = loopStart;
 	argv[4] = loopEnd;
+
 	ConvertToFSB(argc, argv);
 ```
 
