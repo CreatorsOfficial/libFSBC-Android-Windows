@@ -23,9 +23,8 @@ The first string in the string[] or char** is the random string input, second is
 
 You can write the code as follows for a console application
 
-<sup>#include "FSBC.h"
+#include "FSBC.h"
 #include <string>
-
 int main()
 {
 	int argc = 4;
@@ -34,36 +33,31 @@ int main()
 	char* output = "Path to save your fsb";
 	char* loopStart = "3333";
 	char* loopEnd = "4444";
-
 	char** argv = malloc(sizeof(char**) * 4);
 	argv[0] = random;
 	argv[1] = input;
 	argv[2] = output;
 	argv[3] = loopStart;
 	argv[4] = loopEnd;
-
 	ConvertToFSB(argc, argv);
-}</sup>
+}
 
 If you dont want the Loop Points then simply remove them as follows
 
-<sup>#include "FSBC.h"
+#include "FSBC.h"
 #include <string>
-
 int main()
 {
 	int argc = 4;
 	char* random = "random";
 	char* input = "Path to your ogg file";
 	char* output = "Path to save your fsb";
-
 	char** argv = malloc(sizeof(char**) * 2);
 	argv[0] = random;
 	argv[1] = input;
 	argv[2] = output;
-
 	ConvertToFSB(argc, argv);
-}</sup>
+}
 
 You can only use C objective for now.
 In the next releases I will improve it for sure.
