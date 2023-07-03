@@ -63,7 +63,7 @@ int main()
 	argv[2] = output;
 
 	ConvertToFSB(argc, argv);
-}```
+}
 
 You can only use C objective for now.
 In the next releases I will improve it for sure.
