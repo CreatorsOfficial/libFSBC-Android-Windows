@@ -23,7 +23,7 @@ The first string in the string[] or char** is the random string input, second is
 
 You can write the code as follows for a console application
 
-```#include "FSBC.h"
+[#include "FSBC.h"
 #include <string>
 
 int main()
@@ -43,11 +43,11 @@ int main()
 	argv[4] = loopEnd;
 
 	ConvertToFSB(argc, argv);
-}
+}]
 
 If you dont want the Loop Points then simply remove them as follows
 
-```#include "FSBC.h"
+#include "FSBC.h"
 #include <string>
 
 int main()
