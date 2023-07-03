@@ -37,7 +37,7 @@ You can write the code as follows for a console application
 	argv[3] = loopStart;
 	argv[4] = loopEnd;
 	ConvertToFSB(argc, argv);
-}```
+```
 
 If you dont want the Loop Points then simply remove them as follows
 
