@@ -41,10 +41,7 @@ You can write the code as follows for a console application
 
 If you dont want the Loop Points then simply remove them as follows
 
-#include "FSBC.h"
-#include <string>
-int main()
-{
+```css
 	int argc = 4;
  
 	char* random = "random";
@@ -57,7 +54,8 @@ int main()
 	argv[2] = output;
  
 	ConvertToFSB(argc, argv);
-}
+```
+ 
 
 You can only use C objective for now.
 In the next releases I will improve it for sure.
